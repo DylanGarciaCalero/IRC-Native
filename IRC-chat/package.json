@@ -1,0 +1,42 @@
+{
+  "name": "irc-chat",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@firebase/storage": "^0.9.9",
+    "@react-native-async-storage/async-storage": "^1.17.9",
+    "@react-native-firebase/app": "^15.3.0",
+    "@react-native-firebase/firestore": "^15.3.0",
+    "@react-navigation/native": "^6.0.11",
+    "@react-navigation/stack": "^6.2.2",
+    "expo": "~46.0.7",
+    "expo-av": "~12.0.4",
+    "expo-image-picker": "^13.3.1",
+    "expo-location": "~14.3.0",
+    "expo-status-bar": "~1.4.0",
+    "firebase": "^9.9.2",
+    "moment": "^2.29.4",
+    "react": "18.0.0",
+    "react-firebase-hooks": "^5.0.3",
+    "react-native": "0.69.4",
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "^2.5.0",
+    "react-native-image-picker": "^4.8.5",
+    "react-native-maps": "0.31.1",
+    "react-native-progress": "^5.0.0",
+    "react-native-uuid": "^2.0.1",
+    "react-native-vector-icons": "^9.2.0",
+    "expo-battery": "~6.3.0",
+    "expo-updates": "~0.14.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
